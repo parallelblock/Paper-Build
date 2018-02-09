@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: parallelblock/mcbuild
+    commands:
+    - cd Paper && bash build.sh
